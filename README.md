@@ -18,23 +18,25 @@ Before using this script, make sure you have the following dependencies installe
 
 - Curl ✔️
 
-
 ## Installation ⚙️
+
 To install the script, simply run the following command in your terminal:
 
-```
+``` sh
 curl -sSfL https://raw.githubusercontent.com/matvrus/pre-commit-auto-script/main/install.sh | bash
 ```
 
 ## Enable🔔 or Disable plugin 🔕
+
 ✅ Enable:
 
-```
+```sh
 source on-off-gitleaks.sh; enable
 ```
+
 ❌ Disable:
 
-```
+```sh
 source on-off-gitleaks.sh; disable
 ```
 
@@ -45,6 +47,7 @@ After running the installation command, it will automatically install and config
 You can review and customize the list of available hooks in the `.pre-commit-config.yaml` file, which will be created in the root directory of your project. For example, you can add more arguments to the `.gitleaks.toml` file.
 
 ## DEMO 🎥
+
 Wondering how the script works? Take a look at this demo:
 
 ![Alt](data/demo.gif)
